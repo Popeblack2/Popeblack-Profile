@@ -22,13 +22,13 @@
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="/about">About</a>
 			</li>
-				<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
+				<li aria-current={$page.url.pathname === '/education' ? 'page' : undefined}>
 				<a href="/education">education</a>
 			</li>
-				<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
+				<li aria-current={$page.url.pathname === '/experience' ? 'page' : undefined}>
 				<a href="/experience">Experience</a>
 			</li>
-				<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
+				<li aria-current={$page.url.pathname === '/skills' ? 'page' : undefined}>
 				<a href="/skills">Skills</a>
 			</li>
 		</ul>
