@@ -5,9 +5,7 @@
 
 <div class="text-column">
 	<h1>My experiences with Projects</h1>
-
-	<<!DOCTYPE html>
-<html>
+	
 <head>
 	<title>Secret Network Africa Lead / Secret Agent Coordinator</title>
 </head>
