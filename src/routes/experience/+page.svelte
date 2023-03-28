@@ -3,51 +3,39 @@
 	<meta name="description" content="experience" />
 </svelte:head>
 
+<template>
+  <div class="container">
+    <h1>Welcome to my website!</h1>
+    <p>This is some sample text.</p>
+  </div>
+</template>
+
+<style>
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+</style>
+
+
 <div class="text-column">
 	<h1>My experiences with Projects</h1>
 
-	<title>Secret Network Africa Lead / Secret Agent Coordinator</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            font-size: 16px;
-            line-height: 1.5;
-            margin: 0;
-            padding: 0;
-        }
-        h1 {
-            text-align: center;
-            margin: 20px 0;
-        }
-        li {
-            margin: 0 0 10px 20px;
-            list-style-type: disc;
-            list-style-position: inside;
-        }
-    </style>
-</head>
-<body>
-    <h1>Secret Network Africa Lead / Secret Agent Coordinator</h1>
-    <ul>
-        <li>
-            Successfully planned, attended, and executed over 50 online and offline events (AMA, Webinars, Twitter Space, Conferences, and Summit)
-        </li>
-        <li>
-            Managing and Coordinating Discord Server
-        </li>
-        <li>
-            Contributing to idealizing, implementing, executing, community building strategy, Agent program improvement with the core team, and partnership with various blockchain projects.
-        </li>
-        <li>
-            Generating Leads
-        </li>
-        <li>
-            Setting up workshops
-        </li>
-        <li>
-            Managing the African community
-        </li>
-    </ul>
-</body>
 
 </div>
